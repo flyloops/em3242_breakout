@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name EM3242)(type KiCad)(uri "$(KIPRJMOD)/EM3242.pretty")(options "")(descr ""))
+  (lib (name HEADER_3X1)(type KiCad)(uri "$(KIPRJMOD)/HEADER_3X1.pretty")(options "")(descr ""))
+  (lib (name arduino_nano)(type Legacy)(uri /home/wbd/work/pcb_designs/nano_to_autodriver/arduino_nano.mod)(options "")(descr ""))
+  (lib (name hole_4-40)(type KiCad)(uri "$(KIPRJMOD)/hole_4-40.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,177 @@
+(pcb /home/wbd/work/pcb_designs/angle_sensor_em3242/angle_sensor_em3242.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.7-e2-6376~58~ubuntu16.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  50800 -53340  50800 -73660  50838.6 -74101.1  50953.2 -74528.7
+            51140.3 -74930  51394.2 -75292.7  51707.3 -75605.8  52070 -75859.7
+            52471.3 -76046.8  52898.9 -76161.4  53340 -76200  73660 -76200
+            74101.1 -76161.4  74528.7 -76046.8  74930 -75859.7  75292.7 -75605.8
+            75605.8 -75292.7  75859.7 -74930  76046.8 -74528.7  76161.4 -74101.1
+            76200 -73660  76200 -53340  76161.4 -52898.9  76046.8 -52471.3
+            75859.7 -52070  75605.8 -51707.3  75292.7 -51394.2  74930 -51140.3
+            74528.7 -50953.2  74101.1 -50838.6  73660 -50800  70485 -50800
+            70264.5 -50780.7  70050.6 -50723.4  69850 -50629.9  69668.7 -50502.9
+            69512.1 -50346.3  69385.1 -50165  69291.6 -49964.4  69234.3 -49750.5
+            69215 -49530  69215 -46990  69195.7 -46769.5  69138.4 -46555.6
+            69044.9 -46355  68917.9 -46173.7  68761.3 -46017.1  68580 -45890.1
+            68379.4 -45796.6  68165.5 -45739.3  67945 -45720  59055 -45720
+            58834.5 -45739.3  58620.6 -45796.6  58420 -45890.1  58238.7 -46017.1
+            58082.1 -46173.7  57955.1 -46355  57861.6 -46555.6  57804.3 -46769.5
+            57785 -46990  57785 -49530  57765.7 -49750.5  57708.4 -49964.4
+            57614.9 -50165  57487.9 -50346.3  57331.3 -50502.9  57150 -50629.9
+            56949.4 -50723.4  56735.5 -50780.7  56515 -50800  53340 -50800
+            52898.9 -50838.6  52471.3 -50953.2  52070 -51140.3  51707.3 -51394.2
+            51394.2 -51707.3  51140.3 -52070  50953.2 -52471.3  50838.6 -52898.9
+            50800 -53340  50800 -53340)
+    )
+    (via "Via[0-1]_685.8:330.2_um")
+    (rule
+      (width 254)
+      (clearance 152.5)
+      (clearance 152.5 (type default_smd))
+      (clearance 38.1 (type smd_smd))
+    )
+  )
+  (placement
+    (component Capacitors_SMD:C_0805_HandSoldering
+      (place C1 72263 -61214 front 270 (PN 0.1uF))
+    )
+    (component HEADER_3X1:HEADER_3X1
+      (place J1 63500 -48895 front 0 (PN PIN_ARRAY_3X1))
+    )
+    (component EM3242:EM3242
+      (place U1 63500 -63500 front 0 (PN EM3242))
+    )
+    (component "hole_4-40:MOUNT_HOLE_4_40"
+      (place M1 53340 -53340 front 0 (PN VAL**))
+    )
+    (component "hole_4-40:MOUNT_HOLE_4_40::1"
+      (place M2 75057 -44577 front 0 (PN VAL**))
+    )
+    (component "hole_4-40:MOUNT_HOLE_4_40::2"
+      (place M3 78740 -85725 front 0 (PN VAL**))
+    )
+    (component "hole_4-40:MOUNT_HOLE_4_40::3"
+      (place M4 52324 -85090 front 0 (PN VAL**))
+    )
+  )
+  (library
+    (image Capacitors_SMD:C_0805_HandSoldering
+      (outline (path signal 100  -1000 -620  -1000 620))
+      (outline (path signal 100  1000 -620  -1000 -620))
+      (outline (path signal 100  1000 620  1000 -620))
+      (outline (path signal 100  -1000 620  1000 620))
+      (outline (path signal 120  500 850  -500 850))
+      (outline (path signal 120  -500 -850  500 -850))
+      (outline (path signal 50  -2250 880  2250 880))
+      (outline (path signal 50  -2250 880  -2250 -870))
+      (outline (path signal 50  2250 -870  2250 880))
+      (outline (path signal 50  2250 -870  -2250 -870))
+      (pin Rect[T]Pad_1500x1250_um 1 -1250 0)
+      (pin Rect[T]Pad_1500x1250_um 2 1250 0)
+    )
+    (image HEADER_3X1:HEADER_3X1
+      (outline (path signal 203.2  -3810 1270  -3810 -1270))
+      (outline (path signal 203.2  -3810 -1270  3810 -1270))
+      (outline (path signal 203.2  3810 -1270  3810 1270))
+      (outline (path signal 203.2  3810 1270  -3810 1270))
+      (pin Rect[A]Pad_1651x1651_um 1 -2540 0)
+      (pin Round[A]Pad_1651_um 2 0 0)
+      (pin Round[A]Pad_1651_um 3 2540 0)
+    )
+    (image EM3242:EM3242
+      (outline (path signal 150  0 1800  1500 1800))
+      (outline (path signal 150  1500 1800  1500 -1800))
+      (outline (path signal 150  1500 -1800  -1500 -1800))
+      (outline (path signal 150  -1500 -1800  -1500 1800))
+      (outline (path signal 150  -1500 1800  0 1800))
+      (pin Rect[T]Pad_1500x450_um 1 -2350 1000)
+      (pin Rect[T]Pad_1500x450_um 2 -2350 0)
+      (pin Rect[T]Pad_1500x450_um 3 -2350 -1000)
+      (pin Rect[T]Pad_1500x450_um 4 2350 -1000)
+      (pin Rect[T]Pad_1500x450_um 5 2350 0)
+      (pin Rect[T]Pad_1500x450_um 6 2350 1000)
+    )
+    (image "hole_4-40:MOUNT_HOLE_4_40"
+      (pin Round[A]Pad_3302_um @1 635 -635)
+    )
+    (image "hole_4-40:MOUNT_HOLE_4_40::1"
+      (pin Round[A]Pad_3302_um @1 -2032 -9398)
+    )
+    (image "hole_4-40:MOUNT_HOLE_4_40::2"
+      (pin Round[A]Pad_3302_um @1 -5715 12700)
+    )
+    (image "hole_4-40:MOUNT_HOLE_4_40::3"
+      (pin Round[A]Pad_3302_um @1 1651 12065)
+    )
+    (padstack Round[A]Pad_1651_um
+      (shape (circle F.Cu 1651))
+      (shape (circle B.Cu 1651))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3302_um
+      (shape (circle F.Cu 3302))
+      (shape (circle B.Cu 3302))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x450_um
+      (shape (rect F.Cu -750 -225 750 225))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x1250_um
+      (shape (rect F.Cu -750 -625 750 625))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1651x1651_um
+      (shape (rect F.Cu -825.5 -825.5 825.5 825.5))
+      (shape (rect B.Cu -825.5 -825.5 825.5 825.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_685.8:330.2_um"
+      (shape (circle F.Cu 685.8))
+      (shape (circle B.Cu 685.8))
+      (attach off)
+    )
+  )
+  (network
+    (net /GND
+      (pins C1-1 J1-1 U1-1 U1-2 U1-6)
+    )
+    (net /3V3
+      (pins C1-2 J1-2 U1-3 U1-5)
+    )
+    (net /AOUT
+      (pins J1-3 U1-4)
+    )
+    (class kicad_default "" /3V3 /AOUT /GND
+      (circuit
+        (use_via Via[0-1]_685.8:330.2_um)
+      )
+      (rule
+        (width 254)
+        (clearance 152.5)
+      )
+    )
+  )
+  (wiring
+  )
+)

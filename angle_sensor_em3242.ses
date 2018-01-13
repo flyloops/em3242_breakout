@@ -1,0 +1,183 @@
+
+(session angle_sensor_em3242.ses
+  (base_design angle_sensor_em3242.dsn)
+  (placement
+    (resolution um 10)
+    (component Capacitors_SMD:C_0805_HandSoldering
+      (place C1 722630 -612140 front 270)
+    )
+    (component HEADER_3X1:HEADER_3X1
+      (place J1 635000 -488950 front 0)
+    )
+    (component EM3242:EM3242
+      (place U1 635000 -635000 front 0)
+    )
+    (component "hole_4-40:MOUNT_HOLE_4_40"
+      (place M1 533400 -533400 front 0)
+    )
+    (component "hole_4-40:MOUNT_HOLE_4_40::1"
+      (place M2 750570 -445770 front 0)
+    )
+    (component "hole_4-40:MOUNT_HOLE_4_40::2"
+      (place M3 787400 -857250 front 0)
+    )
+    (component "hole_4-40:MOUNT_HOLE_4_40::3"
+      (place M4 523240 -850900 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "4.0.7-e2-6376~58~ubuntu16.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_685.8:330.2_um"
+        (shape
+          (circle F.Cu 6858 0 0)
+        )
+        (shape
+          (circle B.Cu 6858 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /GND
+        (wire
+          (path F.Cu 2540
+            646057 -483811
+            640144 -477898
+            630321 -477898
+            620652 -487567
+            620652 -488950
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            646057 -625000
+            646057 -483811
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            646057 -483811
+            652459 -477409
+            664601 -477409
+            688930 -501738
+            688930 -574987
+            713583 -599640
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            646057 -625000
+            621797 -625000
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            658500 -625000
+            646057 -625000
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            722630 -599640
+            713583 -599640
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            609600 -488950
+            620652 -488950
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            611500 -625000
+            621797 -625000
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            611500 -635000
+            621797 -635000
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            621797 -635000
+            621797 -625000
+          )
+        )
+      )
+      (net /3V3
+        (wire
+          (path F.Cu 2540
+            611500 -645000
+            601203 -645000
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            601203 -645000
+            601203 -522747
+            635000 -488950
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            647315 -645000
+            611500 -645000
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            658500 -635000
+            648203 -635000
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            647315 -645000
+            647315 -648148
+            649239 -650072
+            688151 -650072
+            713583 -624640
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            648203 -635000
+            648203 -644112
+            647315 -645000
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            722630 -624640
+            713583 -624640
+          )
+        )
+      )
+      (net /AOUT
+        (wire
+          (path F.Cu 2540
+            658500 -645000
+            668797 -645000
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            668797 -645000
+            668797 -497347
+            660400 -488950
+          )
+        )
+      )
+    )
+  )
+)
