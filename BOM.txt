@@ -1,0 +1,10 @@
+part       description                 vendor            PN                  QTY
+---------------------------------------------------------------------------------
+U1         Angle Sensor IC            Digikey            974-1044-1-ND        1
+C1         0.1uF capacitor, SM0805    Digikey            478-1395-2-ND        1
+J1         3-pin header right angle   Digikey            S1111EC-03-ND        1
+
+
+Sensor Cable
+------------
+Jumper Wire 0.1", 3-pin, 12"  Sparkfun  PRT-10373
